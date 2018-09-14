@@ -1,0 +1,12 @@
+<span [ngClass]="wrapperClass">
+    <input [ngClass]="inputClass" (blur)="inputOnBur()" (keyup)="valueChanged()" *ngIf="multiline == false"
+        type="text" [(ngModel)]="model">
+    <textarea [ngClass]="inputClass" (blur)="inputOnBur()" (keyup)="valueChanged()" *ngIf="multiline == true"
+        [(ngModel)]="model"></textarea>
+    <label [ngClass]="labelClass">
+        <i [ngClass]="iconClass"></i>
+        <span [ngClass]="contentClass">
+            {{placeholder}}
+        </span>
+    </label>
+</span>
