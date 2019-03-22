@@ -1,3 +1,12 @@
+
+Text Input Effects Angular 4 Wrapper
+=========
+<text-input-effects [(ngModel)]="model.username" type="nao" placeholder="Username"></text-input-effects>
+
+
+
+----
+
 Text Input Effects
 =========
 
@@ -13,9 +22,5 @@ Read more here: [License](http://tympanus.net/codrops/licensing/)
 
 Follow us: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/pages/Codrops/159107397912), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/)
 
-
-Text Input Effects Angular 4
-=========
-<text-input-effects [(ngModel)]="model.username" type="nao" placeholder="Username"></text-input-effects>
 
 [© Codrops 2014](http://www.codrops.com)
